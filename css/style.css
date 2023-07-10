@@ -71,4 +71,10 @@ header {
 }
 .feature-container{
     display: flex;
+    justify-content: space-around;
+}
+.f-image{
+    width: 300px;
+    height: 400px;
+    padding: 50px;
 }
