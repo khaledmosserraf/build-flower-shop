@@ -138,13 +138,95 @@ header {
 
 .hot-deal {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 70px 0px 70px 0px;
+    margin: auto;
+    padding: 30px 0px;
 
 }
-.hd-text{
-    align-content: space-around;
+
+.hd-text {
+    justify-content: center;
+    margin: auto;
+}
+
+.hd-title {
+    color: #272727;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hd-title-color {
+    color: #E55473;
+}
+
+.hd-para {
+    font-family: lato;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* margin: 15px 0px; */
+    max-width: 450px;
+    text-align: center;
+}
+
+.hd-btn {
+    background-color: #E55473;
+    color: white;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 38px;
+    border-radius: 5px;
+    border: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    margin: 100px 0px;
+    align-content: center;
+}
+
+.social-text {
+    text-align: center;
+}
+
+.insta-para {
+    font-family: lato;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+    max-width: 450px;
+    text-align: center;
+    padding: 15px 0px;
+}
+#instagram-images{
+    margin-left: 120px;
+}
+.s-image {
+    /* align-items: center; */
+    width: 300px;
+    height: 300px;
+    margin: 0px 10px 0px 0px;
+    justify-items: center;
+   }
+.get-the-latest-deal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    height: 349px;
+    margin: auto;
+    background-image: url('/flower-images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    
 }
 
 footer {
@@ -155,7 +237,7 @@ footer {
     justify-content: center;
 }
 
-.footer-title {
+.footer-heading {
     font-family: lato;
     font-size: 48px;
     color: white;
@@ -164,7 +246,7 @@ footer {
     margin: 15px;
 }
 
-.f-title {
+.flower-color {
     color: #E55473;
 }
 
