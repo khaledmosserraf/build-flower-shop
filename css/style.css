@@ -187,13 +187,15 @@ header {
 }
 
 section {
+    width: 1080px;
     display: flex;
-    margin: 100px 0px;
-    align-content: center;
+    margin: auto;
+    justify-content: center;
 }
 
 .social-text {
     text-align: center;
+    margin: 100px 0px 0px 0px;
 }
 
 .insta-para {
@@ -207,26 +209,70 @@ section {
     text-align: center;
     padding: 15px 0px;
 }
-#instagram-images{
-    margin-left: 120px;
-}
+
 .s-image {
     /* align-items: center; */
-    width: 300px;
+    width: 255px;
     height: 300px;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px 100px 0px;
     justify-items: center;
-   }
-.get-the-latest-deal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1140px;
+}
+
+.get-the-latest-deal {
+    display: block;
+    width: 1080px;
     height: 349px;
     margin: auto;
-    background-image: url('/flower-images/Rectangle\ 9.png');
+    background-image: url('/flower-images/png9.png');
     background-repeat: no-repeat;
-    
+    background-position: center;
+    background-size: cover;
+
+}
+
+.get-the-deal-text {
+    text-align: center;
+}
+
+.signupform {
+    text-align: center;
+}
+
+.get-the-latest-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #272727;
+    padding: 100px 0px 0px 0px;
+}
+
+.get-the-latest-paragraf {
+    font-family: lato;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 10px;
+}
+
+.signupform {
+    margin: 40px;
+}
+
+.email {
+    font-family: lato;
+    font-size: 18px;
+    padding: 9px 25px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.sbtn {
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding: 7px 15px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #E55473;
 }
 
 footer {
@@ -235,6 +281,7 @@ footer {
     height: 300px;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .footer-heading {
