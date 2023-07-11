@@ -167,8 +167,8 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    /* margin: 15px 0px; */
-    max-width: 450px;
+    margin: 15px 0px;
+    max-width: 500px;
     text-align: center;
 }
 
@@ -223,7 +223,7 @@ section {
     width: 1080px;
     height: 349px;
     margin: auto;
-    background-image: url('/flower-images/png9.png');
+    background-image: url('/flower-images/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
