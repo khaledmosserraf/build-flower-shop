@@ -1,11 +1,8 @@
 * {
     margin: 0px;
-
-}
-
-body {
     font-family: 'Lato', sans-serif;
     font-family: 'Satisfy', cursive;
+
 }
 
 header {
@@ -21,7 +18,8 @@ header {
     padding: 0px 240px;
 
 }
-.main-title{
+
+.main-title {
     color: #272727;
     font-size: 65px;
     font-weight: 800;
@@ -54,15 +52,18 @@ header {
     height: 600px;
     margin: 50px 0px -5px 100px;
 }
-.main-body{
+
+.main-body {
     /* align-items: center; */
     padding: 60px 200px;
 }
-.features{
+
+.features {
     text-align: center;
 
 }
-.feature-para{
+
+.feature-para {
     font-family: lato;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -72,34 +73,40 @@ header {
     /* max-width: 450px; */
     /* text-align: center; */
 }
-.feature-container{
+
+.feature-container {
     display: flex;
     justify-content: space-around;
     margin: 15px;
 }
-.f-image{
+
+.f-image {
     width: 310px;
     height: 428px;
     padding: 35px 45px 0px 45px;
     border-color: #272727;
     border: 1px;
-    
+
 }
-#a-f-image{
+
+#a-f-image {
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    
+
 }
-#b-f-image{
+
+#b-f-image {
     margin: 0px 10px;
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
-#c-f-image{
+
+#c-f-image {
     background-color: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
-.cont-para{
+
+.cont-para {
     font-family: lato;
     font-size: 18px;
     font-weight: 400;
@@ -108,22 +115,39 @@ header {
     text-decoration: underline;
     margin: 15px;
 }
-.icon-section{
+
+.icon-section {
     display: flex;
     margin: 50px;
     background-color: rgba(39, 39, 39, 0.05);
     justify-content: space-between;
 }
-.ico{
-    padding: 30px;
+
+.ico-images {
+    padding: 50px;
     align-items: center;
-}
-.icon{
-    align-items: center;
-    size: 50px;
+
 }
 
-footer{
+.icon {
+    /* align-items: center; */
+    width: 88px;
+    height: 88px;
+
+}
+
+.hot-deal {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 70px 0px 70px 0px;
+
+}
+.hd-text{
+    align-content: space-around;
+}
+
+footer {
     display: flex;
     background-color: black;
     height: 300px;
@@ -131,7 +155,7 @@ footer{
     justify-content: center;
 }
 
-.footer-title{
+.footer-title {
     font-family: lato;
     font-size: 48px;
     color: white;
@@ -139,10 +163,12 @@ footer{
     text-align: center;
     margin: 15px;
 }
-.f-title{
+
+.f-title {
     color: #E55473;
 }
-.f-para{
+
+.f-para {
     font-family: lato;
     color: white;
     line-height: 25px;
